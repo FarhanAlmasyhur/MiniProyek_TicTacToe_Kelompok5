@@ -1,6 +1,6 @@
 # Kelompok 5
 Proyek mini Tic Tac Toe oleh Kevin Darmawan (1806148744) dan Farhan Almasyhur (1806200375). Pada proyek ini kami menggunakan array2d, file processing, dan sound processing.
-
+![](Images/1.png)
 ## main function
 function main ini berfungsi untuk membuat layar menjadi fullscreen dan memulai game dengan splashscreen
 ```bash
@@ -11,6 +11,7 @@ function main ini berfungsi untuk membuat layar menjadi fullscreen dan memulai g
 
 ### board()
 memunculkan layout dari tictactoe 4x4
+![](Images/2.png)
 ```bash
 int board(char player1[10], char player2[10]){
 	
@@ -98,7 +99,9 @@ mengarahkan tempat dimana pemain akan mengisi X atau O
 ```
 
 ## checkwin.h
-menentukan apakah player 1 atau player 2 yang memenangkan permainan, contoh sedikit yaitu :
+menentukan apakah player 1 atau player 2 yang memenangkan permainan. Ketika permainan berakhir akan menampilan player yang menang
+![](Images/3.png)
+Code dari checkwin yaitu
 ```bash
 void checkwin(char square[3][3],char player1[10],char player2[10]){
 	if(square[0][0]==square[0][1] && square[0][1] == square[0][2] && square[0][0] != NULL){

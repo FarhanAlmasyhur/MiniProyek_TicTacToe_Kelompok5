@@ -1,5 +1,5 @@
 # Kelompok 5
-Proyek mini Tic Tac Toe oleh Kevin Darmawan (1806148744) dan Farhan Almasyhur (1806200375). Pada proyek ini sudah menggunakan array2d, file processing, dan sound processing.
+Proyek mini Tic Tac Toe oleh Kevin Darmawan (1806148744) dan Farhan Almasyhur (1806200375). Pada proyek ini kami menggunakan array2d, file processing, dan sound processing.
 
 ## main function
 function main ini berfungsi untuk membuat layar menjadi fullscreen dan memulai game dengan splashscreen
